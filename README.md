@@ -2,28 +2,42 @@
 
 
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <string.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
+
 #define TAM 500
 
+
 struct cadastro {
+	
 	int codigo;
+	
 	char nome[50];
+	
 	char busca[15];
+	
 	char cpf[15];
+	
 	char vacina[20];
+	
 	char data[10];
+	
 	int lote;
 };
 
 int main() 
 {
 	struct cadastro ficha[TAM];
+	
 	int i, j, buscar, acha, op, cod;
+	
 	op = 0;
+	
 	cod = 0;
 	
 	/*Criando o menu*/
@@ -107,3 +121,9 @@ int main()
 	
 	return (0);
 }
+
+
+
+
+![image](https://user-images.githubusercontent.com/83425571/180620626-085a2cdb-6075-4705-b343-01bf645471ab.png)
+
